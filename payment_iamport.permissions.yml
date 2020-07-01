@@ -1,0 +1,4 @@
+administer payment_iamport configuration:
+  title: 'Administer payment_iamport configuration'
+  description: 'Optional description.'
+  restrict access: true

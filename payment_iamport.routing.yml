@@ -1,0 +1,15 @@
+payment_iamport.example:
+  path: '/payment-iamport/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\payment_iamport\Controller\PaymentIamportController::build'
+  requirements:
+    _permission: 'access content'
+
+payment_iamport.settings_form:
+  path: '/admin/config/system/payment-iamport'
+  defaults:
+    _title: 'Payment iamport settings'
+    _form: 'Drupal\payment_iamport\Form\SettingsForm'
+  requirements:
+    _permission: 'administer payment_iamport configuration'

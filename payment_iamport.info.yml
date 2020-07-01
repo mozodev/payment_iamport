@@ -1,0 +1,6 @@
+name: Payment iamport
+type: module
+description: Integrate iamport payment gateway service.
+package: payment
+core: 8.x
+core_version_requirement: ^8 || ^9
